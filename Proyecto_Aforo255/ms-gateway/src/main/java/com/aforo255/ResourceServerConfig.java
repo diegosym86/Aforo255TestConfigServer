@@ -34,7 +34,7 @@ public class ResourceServerConfig  extends ResourceServerConfigurerAdapter{
 		// TODO Auto-generated method stub
 		http.authorizeRequests().antMatchers("/api/security/oauth/**").permitAll()
 		.antMatchers(HttpMethod.GET,"/api/invoice/listar","/api/invoice/ver/{id}"
-				,"/api/transaction/listar", "/api/transaction/transaction/{invoiceId}").hasAnyRole("ADMIN","USER")
+				,"/api/transaction/listar", "/api/transaction/listar/{invoiceId}").hasAnyRole("ADMIN","USER")
 		.antMatchers("/api/pay/**").hasAnyRole("ADMIN", "USER")
 		.anyRequest().authenticated().and().cors()
 		.configurationSource(configurationSource());
