@@ -24,7 +24,7 @@ public class TransactionController {
 		return ( List<Transaction>)_transaction.findAll();
 	}
 	
-	@GetMapping ("/transaction/{invoiceId}")
+	@GetMapping ("/listar/{invoiceId}")
 	public ResponseEntity<?> getByInvoiceId (@PathVariable Integer invoiceId){
 		
 		Iterable< Transaction> transaction= _transaction.findByInvoiceId(invoiceId);
