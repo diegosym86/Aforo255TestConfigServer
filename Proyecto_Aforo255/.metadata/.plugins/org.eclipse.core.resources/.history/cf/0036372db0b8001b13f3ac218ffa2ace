@@ -1,0 +1,13 @@
+spring.application.name=ms-security
+server.port=8010
+
+spring.datasource.driverClassName=com.microsoft.sqlserver.jdbc.SQLServerDriver
+spring.datasource.url=jdbc:sqlserver://localhost;databaseName=db_account
+#spring.datasource.url=jdbc:sqlserver://sqlservice;databaseName=db_account
+spring.datasource.username=sa
+spring.datasource.password=1a.2b.3c.
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.SQLServer2012Dialect
+spring.jpa.hibernate.ddl-auto=create
+logging.level.org.hibernate.SQL=debug

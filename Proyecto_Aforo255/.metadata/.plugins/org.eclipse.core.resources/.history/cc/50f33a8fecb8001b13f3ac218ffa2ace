@@ -1,0 +1,5 @@
+package com.aforo255.config;
+
+public class AutoCreateConfig {
+
+}
