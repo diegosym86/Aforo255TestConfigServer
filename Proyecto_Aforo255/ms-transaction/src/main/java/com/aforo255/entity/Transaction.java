@@ -31,8 +31,8 @@ public class Transaction  {
 	public int getInvoiceId() {
 		return invoiceId;
 	}
-	public void setInvoiceId(int accountId) {
-		this.invoiceId = accountId;
+	public void setInvoiceId(int invoiceId) {
+		this.invoiceId = invoiceId;
 	}
 	public Date getDatetime() {
 		return datetime;
