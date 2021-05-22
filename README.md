@@ -32,6 +32,9 @@ docker run -p 1433:1433   --name ms-sqlserver --network aforo255-test -e ACCEPT_
 docker run -p 27017:27017 --network aforo255-test --name ms-mongo -d mongo
 ```
 
+# Video de Presentación
+Para acceder al video ingresar al siguiente Link [Video Presentación](https://www.youtube.com/watch?v=bqpGSC86-Ok)
+
 ## Servicio de Mensajeria Kafka
 
 ```bash
