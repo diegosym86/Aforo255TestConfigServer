@@ -37,4 +37,11 @@ docker run -p 27017:27017 --network aforo255-test --name ms-mongo -d mongo
 ```bash
 docker run -p 2181:2181 -d -p 9092:9092 --name ms-kafka --network aforo255-test -e ADVERTISED_HOST=127.0.0.1  -e NUM_PARTITIONS=3 johnnypark/kafka-zookeeper
 ```
+# Microservicios desarrollados
 
+- [ms-invoice](https://github.com/diegosym86/Aforo255TestConfigServer/tree/main/Proyecto_Aforo255/ms-invoice): Servicio que lista las facturas de los clientes y adicional consume los mensajes de la cola produciodos por el microservicio de pago, para poder actualizar los montos y estados de las facturas. 
+- [ms-pay](https://github.com/diegosym86/Aforo255TestConfigServer/tree/main/Proyecto_Aforo255/ms-pay): Servicio que registra el pago de una factura y produce un mensaje en un topico para que sea consumido por los microservicios de facturación y transacciones.
+- [ms-transaction](https://github.com/diegosym86/Aforo255TestConfigServer/tree/main/Proyecto_Aforo255/ms-transaction): Servicio que permite listar las transacciones de una factura a traves del consumo de mensajes de un topico generado por el microservicio de pago.  
+- [ms-security](https://github.com/diegosym86/Aforo255TestConfigServer/tree/main/Proyecto_Aforo255/ms-security): Servicio de Seguridad a traves de una implementación de JWT.
+- [ms-gateway](https://github.com/diegosym86/Aforo255TestConfigServer/tree/main/Proyecto_Aforo255/ms-gateway): Servicio que se usa como Gateway para el acceso a todos los microservicios del proyecto. 
+- [ms-configserver](https://github.com/diegosym86/Aforo255TestConfigServer/tree/main/Proyecto_Aforo255/ms-configserver): Servicio que permite centralizar la configuración de cada uno de los microservicios del proyecto
