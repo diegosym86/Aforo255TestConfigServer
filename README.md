@@ -45,6 +45,11 @@ docker run -p 2181:2181 -d -p 9092:9092 --name ms-kafka --network aforo255-test 
 - [ms-gateway](https://github.com/diegosym86/Aforo255TestConfigServer/tree/main/Proyecto_Aforo255/ms-gateway): Servicio que se usa como Gateway para el acceso a todos los microservicios del proyecto. 
 - [ms-configserver](https://github.com/diegosym86/Aforo255TestConfigServer/tree/main/Proyecto_Aforo255/ms-configserver): Servicio que permite centralizar la configuración de cada uno de los microservicios del proyecto
 
+## Probar Solución
+
+Se puede obtener el enlace de la colección de Postman [aquí](https://www.postman.com/collections/d4e320c791d613923bd6) 
+
+Puede Importar la colección de Postman desde el siguiente enlace PostmanCollection o descargar el JSON que se encuentra en el presente proyecto PostmanJSON
 
 # Video de Presentación
 Para acceder al video ingresar al siguiente Link [Video Presentación](https://www.youtube.com/watch?v=bqpGSC86-Ok)
