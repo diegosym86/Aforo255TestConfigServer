@@ -49,7 +49,5 @@ docker run -p 2181:2181 -d -p 9092:9092 --name ms-kafka --network aforo255-test 
 
 Se puede obtener el enlace de la colección de Postman [aquí](https://www.postman.com/collections/d4e320c791d613923bd6) 
 
-Puede Importar la colección de Postman desde el siguiente enlace PostmanCollection o descargar el JSON que se encuentra en el presente proyecto PostmanJSON
-
 # Video de Presentación
 Para acceder al video ingresar al siguiente Link [Video Presentación](https://www.youtube.com/watch?v=bqpGSC86-Ok)
