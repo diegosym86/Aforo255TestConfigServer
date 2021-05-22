@@ -7,7 +7,7 @@ Todos los microservicios deben ser creados bajo la RED aforo255-test
 ```bash
 docker network create aforo255-test
 ```
-Los servicios de Infraestructura que se deben instalar para la ejecución del proyectos son los siguientes:
+Los servicios de Infraestructura que se deben instalar para la ejecución del proyecto son los siguientes:
 
 ## Base de Datos MYSQL
 
