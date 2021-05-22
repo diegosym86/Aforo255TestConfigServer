@@ -31,10 +31,6 @@ docker run -p 1433:1433   --name ms-sqlserver --network aforo255-test -e ACCEPT_
 ```bash
 docker run -p 27017:27017 --network aforo255-test --name ms-mongo -d mongo
 ```
-
-# Video de Presentación
-Para acceder al video ingresar al siguiente Link [Video Presentación](https://www.youtube.com/watch?v=bqpGSC86-Ok)
-
 ## Servicio de Mensajeria Kafka
 
 ```bash
@@ -48,3 +44,7 @@ docker run -p 2181:2181 -d -p 9092:9092 --name ms-kafka --network aforo255-test 
 - [ms-security](https://github.com/diegosym86/Aforo255TestConfigServer/tree/main/Proyecto_Aforo255/ms-security): Servicio de Seguridad a traves de una implementación de JWT.
 - [ms-gateway](https://github.com/diegosym86/Aforo255TestConfigServer/tree/main/Proyecto_Aforo255/ms-gateway): Servicio que se usa como Gateway para el acceso a todos los microservicios del proyecto. 
 - [ms-configserver](https://github.com/diegosym86/Aforo255TestConfigServer/tree/main/Proyecto_Aforo255/ms-configserver): Servicio que permite centralizar la configuración de cada uno de los microservicios del proyecto
+
+
+# Video de Presentación
+Para acceder al video ingresar al siguiente Link [Video Presentación](https://www.youtube.com/watch?v=bqpGSC86-Ok)
